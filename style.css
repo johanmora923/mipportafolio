@@ -311,10 +311,8 @@ label{
 }
 .btns__project{
     width: 100%;
-    margin: auto;
-    position: absolute;
-    top: 77%;
-    left: 25%;
+    display: flex;
+    justify-content: center;
 }
 .btn__github{
     width: 25%;
@@ -323,6 +321,7 @@ label{
     border: none;
     border-radius: 3px;
     box-shadow: 5px 5px 34px 5px #0002;
+    margin-right: 2%;
 }
 .btn__viewProject{
     width: 25%;
